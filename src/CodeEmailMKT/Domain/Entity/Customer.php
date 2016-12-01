@@ -13,6 +13,7 @@ class Customer
     private $name;
     private $email;
     private $customers;
+    private $tags;
 
     public function __construct()
     {

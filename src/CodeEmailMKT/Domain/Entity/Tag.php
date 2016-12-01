@@ -10,11 +10,11 @@ class Tag
 {
     private $id;
     private $name;
-    private $tags;
+    private $customers;
 
     public function __construct()
     {
-        $this->tags = new ArrayCollection();
+        $this->customers = new ArrayCollection();
     }
 
     public function getId()
@@ -33,8 +33,8 @@ class Tag
         return $this;
     }
 
-    public function getTags() : Collection
+    public function getCustomers() : Collection
     {
-        return $this->tags;
+        return $this->customers;
     }
 }
